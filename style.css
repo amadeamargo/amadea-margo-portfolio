@@ -1,0 +1,146 @@
+* {
+background-color: black;
+box-sizing: border-box;
+}
+
+nav {
+    background-color:black;
+    height: 150px;
+    display: flex
+}
+
+nav a {
+    background-color: black;
+    display: inline;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+    margin-top: 50px;
+    font-family: 'Andale Mono', 'monospace', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.nav-name {
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    object-fit: cover;
+    display: flex;
+    align-self: center;
+
+}
+
+.main-image {
+    width: 100%;
+    opacity: 0.5;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-family: 'Andale Mono', 'monospace', sans-serif;
+    
+}
+.about {
+    display: flex
+}
+
+.headshot{
+    width: 25%;
+    margin: 40px;
+}
+
+.about-text{
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-family: 'Andale Mono', 'monospace', sans-serif;
+    line-height: 200%;
+    margin-right: 40px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.works-image {
+    width: 300px;
+    margin: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.works-header {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+font-family: 'Andale Mono', 'monospace', sans-serif;
+font-size: 35px;
+color: white;
+}
+
+
+.resume img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+    width: 40%;
+
+
+}
+
+footer {
+    height: 100px;
+    color: white;
+}
+
+footer a {
+    display: inline-block;
+    margin: 40px;
+    font-family: 'Andale Mono', 'monospace', sans-serif;
+    color: white;
+}
+
+.footer-header{
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav {
+        display: block;
+        font-size: 75%;
+        height: fit-content;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-name{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }    
